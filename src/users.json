@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": "5aad",
+      "username": "user1",
+      "password": "password1",
+      "email": "user1@gmail.com",
+      "address": {
+        "address1": "3432",
+        "address2": "lalitha",
+        "city": "Hyderabad, Telangana, India",
+        "state": "Hyderabad",
+        "zip": "500038"
+      },
+      "favorites": [
+        {
+          "id": "21",
+          "name": "Organza butterfly sleeves",
+          "link": "../assets/readymade/Organza butterfly sleves (2).jpeg",
+          "price": 5000,
+          "description": "This blouse with organza butterfly sleeves is a perfect blend of elegance and modern style. The delicate sleeves and intricate work make it an eye-catching addition to any outfit."
+        }
+      ],
+      "cart": [
+        {
+          "id": "14",
+          "name": "Latest Trendy 3D Maggam design blouse",
+          "link": "../assets/readymade/Latest Trendy Bridal 3d Maggam design blouse.jpeg",
+          "price": 4000,
+          "description": "Stay ahead of the fashion curve with this trendy 3D Maggam design blouse. Perfect for brides looking for a modern yet traditional look, this blouse combines intricate craftsmanship with contemporary style.",
+          "size": 40,
+          "quantity": 1
+        }
+      ],
+      "CustomDesigns": [
+       
+        {
+          "id": 100,
+          "fabric": {
+            "id": 13,
+            "name": "Velvet",
+            "link": "../assets/fabrics/Velvet.jpeg",
+            "price": 500
+          },
+          "color": {
+            "id": 8,
+            "name": "Navy Blue",
+            "link": "../assets/colorOptions/NavyBlue.png",
+            "price": 0
+          },
+          "design": {
+            "id": 5,
+            "name": "Classic Chinese",
+            "link": "../assets/models/Classic Chinese.png",
+            "price": 650
+          },
+          "embroidery": {
+            "id": 23,
+            "name": "Pure Machine embroidery",
+            "link": "../assets/embroidery/Pure Machine embroidery thread work.jpeg",
+            "price": 2000
+          },
+          "size": 40,
+          "price": 3150
+        }
+      ]
+    }   
+    
+  ]
+}

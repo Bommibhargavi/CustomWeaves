@@ -1,0 +1,797 @@
+{
+  "fabricOptions": [
+    {
+      "id": "1",
+      "name": "chiffon",
+      "link": "../assets/fabrics/Chiffon.jpeg",
+      "price": 950
+    },
+    {
+      "id": "2",
+      "name": "denim",
+      "link": "../assets/fabrics/Denim.jpeg",
+      "price": 400
+    },
+    {
+      "id": "7",
+      "name": "Nylon",
+      "link": "../assets/fabrics/Nylon.jpeg",
+      "price": 1000
+    },
+    {
+      "id": "8",
+      "name": "polyester",
+      "link": "../assets/fabrics/polyester.jpeg",
+      "price": 240
+    },
+    {
+      "id": "9",
+      "name": "pure cotton",
+      "link": "../assets/fabrics/pure cotton.jpeg",
+      "price": 200
+    },
+    {
+      "id": "10",
+      "name": "rayon",
+      "link": "../assets/fabrics/rayon.jpeg",
+      "price": 100
+    },
+    {
+      "id": "11",
+      "name": "satin",
+      "link": "../assets/fabrics/satin.jpeg",
+      "price": 140
+    },
+    {
+      "id": "12",
+      "name": "silk",
+      "link": "../assets/fabrics/silk.jpeg",
+      "price": 140
+    },
+    {
+      "id": "13",
+      "name": "Velvet",
+      "link": "../assets/fabrics/Velvet.jpeg",
+      "price": 500
+    },
+    {
+      "id": "14",
+      "name": "wool",
+      "link": "../assets/fabrics/wool.jpeg",
+      "price": 400
+    }
+  ],
+  "colorOptions": [
+    {
+      "id": "1",
+      "name": "BabyPink",
+      "link": "../assets/colorOptions/BabyPink.png",
+      "price": 0
+    },
+    {
+      "id": "2",
+      "name": "Black",
+      "link": "../assets/colorOptions/Black.png",
+      "price": 0
+    },
+    {
+      "id": "3",
+      "name": "Blue",
+      "link": "../assets/colorOptions/Blue.png",
+      "price": 0
+    },
+    {
+      "id": "4",
+      "name": "Gold",
+      "link": "../assets/colorOptions/Gold.png",
+      "price": 0
+    },
+    {
+      "id": "5",
+      "name": "White",
+      "link": "../assets/colorOptions/White.png",
+      "price": 70
+    },
+    {
+      "id": "6",
+      "name": "light green",
+      "link": "../assets/colorOptions/Green.png",
+      "price": 0
+    },
+    {
+      "id": "8",
+      "name": "Navy Blue",
+      "link": "../assets/colorOptions/NavyBlue.png",
+      "price": 0
+    },
+    {
+      "id": "9",
+      "name": "orange",
+      "link": "../assets/colorOptions/Orange.png",
+      "price": 0
+    },
+    {
+      "id": "10",
+      "name": "Peach",
+      "link": "../assets/colorOptions/peach.png",
+      "price": 50
+    },
+    {
+      "id": "11",
+      "name": "Pink",
+      "link": "../assets/colorOptions/Pink.png",
+      "price": 0
+    },
+    {
+      "id": "12",
+      "name": "Purple",
+      "link": "../assets/colorOptions/Purple.png",
+      "price": 0
+    },
+    {
+      "id": "14",
+      "name": "Red",
+      "link": "../assets/colorOptions/Red.png",
+      "price": 0
+    },
+    {
+      "id": "16",
+      "name": "sky blue",
+      "link": "../assets/colorOptions/SkyBlue.png",
+      "price": 0
+    },
+    {
+      "id": "19",
+      "name": "yellow",
+      "link": "../assets/colorOptions/Yellow.png",
+      "price": 0
+    }
+  ],
+  "designOptions": [
+    {
+      "id": "1",
+      "name": "Boat Neck Band Deep",
+      "link": "../assets/models/Boat Neck Band Deep.png",
+      "price": 700
+    },
+    {
+      "id": "2",
+      "name": "Boat Neck Band",
+      "link": "../assets/models/Boat Neck Band.png",
+      "price": 400
+    },
+    {
+      "id": "3",
+      "name": "Buttoned front",
+      "link": "../assets/models/Buttoned front.png",
+      "price": 700
+    },
+    {
+      "id": "4",
+      "name": "Classic Boat Neck",
+      "link": "../assets/models/Classic Boat Neck.png",
+      "price": 600
+    },
+    {
+      "id": "5",
+      "name": "Classic Chinese",
+      "link": "../assets/models/Classic Chinese.png",
+      "price": 650
+    },
+    {
+      "id": "6",
+      "name": "Classic Halter",
+      "link": "../assets/models/Classic Halter.png",
+      "price": 650
+    },
+    {
+      "id": "7",
+      "name": "Classic Square",
+      "link": "../assets/models/Classic Square.png",
+      "price": 800
+    },
+    {
+      "id": "8",
+      "name": "Classic Sweetheart",
+      "link": "../assets/models/Classic Sweetheart.png",
+      "price": 200
+    },
+    {
+      "id": "9",
+      "name": "Classic U Neck",
+      "link": "../assets/models/Classic U.png",
+      "price": 700
+    },
+    {
+      "id": "10",
+      "name": "Classic V Neck",
+      "link": "../assets/models/Classic V.png",
+      "price": 900
+    },
+    {
+      "id": "11",
+      "name": "Closed U Neck",
+      "link": "../assets/models/Closed U.png",
+      "price": 600
+    },
+    {
+      "id": "12",
+      "name": "Collar Band",
+      "link": "../assets/models/Collar Band.png",
+      "price": 800
+    },
+    {
+      "id": "13",
+      "name": "Crossover Neck Blouse",
+      "link": "../assets/models/Crossover.png",
+      "price": 1000
+    },
+    {
+      "id": "14",
+      "name": "Curvy Sweetheart Neckline",
+      "link": "../assets/models/Curvy Sweetheart.png",
+      "price": 670
+    },
+    {
+      "id": "15",
+      "name": "Hi-Neck Blouse",
+      "link": "../assets/models/Hi-Neck.png",
+      "price": 1200
+    },
+    {
+      "id": "16",
+      "name": "Panelled Corset",
+      "link": "../assets/models/Panelled Corset.png",
+      "price": 600
+    },
+    {
+      "id": "17",
+      "name": "pot Neckline Blouse",
+      "link": "../assets/models/pot Neck.png",
+      "price": 1000
+    },
+    {
+      "id": "18",
+      "name": "Round collar Neck",
+      "link": "../assets/models/Round collar.png",
+      "price": 900
+    },
+    {
+      "id": "19",
+      "name": "Rounded Square Neck",
+      "link": "../assets/models/Rounded Square.png",
+      "price": 1200
+    },
+    {
+      "id": "20",
+      "name": "Ruched V Neck",
+      "link": "../assets/models/Ruched V.png",
+      "price": 1500
+    },
+    {
+      "id": "21",
+      "name": "Slim U Neckline blouse",
+      "link": "../assets/models/Slim U.png",
+      "price": 1000
+    },
+    {
+      "id": "22",
+      "name": "Straight Bust",
+      "link": "../assets/models/Straight Bust.png",
+      "price": 1250
+    },
+    {
+      "id": "23",
+      "name": "Straight spaghetti",
+      "link": "../assets/models/Straight spaghetti.png",
+      "price": 500
+    },
+    {
+      "id": "24",
+      "name": "Sweetheart Bust",
+      "link": "../assets/models/Sweetheart Bust.png",
+      "price": 200
+    },
+    {
+      "id": "25",
+      "name": "Sweetheart spaghetti",
+      "link": "../assets/models/Sweetheart spaghetti.png",
+      "price": 400
+    },
+    {
+      "id": "26",
+      "name": "Teardrop deepsleeve",
+      "link": "../assets/models/Teardrop deepsleeve.png",
+      "price": 600
+    },
+    {
+      "id": "27",
+      "name": "Teardrop regular",
+      "link": "../assets/models/Teardrop regular.png",
+      "price": 350
+    },
+    {
+      "id": "30",
+      "name": "Tie Up neckline blouse",
+      "link": "../assets/models/Tie Up.png",
+      "price": 500
+    },
+    {
+      "id": "31",
+      "name": "Two body blouse",
+      "link": "../assets/models/Two body blouse.png",
+      "price": 450
+    },
+    {
+      "id": "32",
+      "name": "V Collar Deep blouse",
+      "link": "../assets/models/V Collar Deep.png",
+      "price": 450
+    },
+    {
+      "id": "33",
+      "name": "V Collar Neckline Blouse",
+      "link": "../assets/models/V Collar.png",
+      "price": 350
+    },
+    {
+      "id": "34",
+      "name": "V NeckLine Blouse",
+      "link": "../assets/models/V Neck.png",
+      "price": 500
+    },
+    {
+      "id": "35",
+      "name": "wide U Neckline Blouse",
+      "link": "../assets/models/wide U.png",
+      "price": 500
+    },
+    {
+      "id": "36",
+      "name": "With Armband",
+      "link": "../assets/models/With Armband.png",
+      "price": 500
+    }
+  ],
+  "embroideryOptions": [
+    {
+      "id": "1",
+      "name": "silver and gold bids simple maggam work",
+      "link": "../assets/embroidery/Blue colour pic's silver and gold bids simple maggam work.jpeg",
+      "price": 5000
+    },
+    {
+      "id": "2",
+      "name": "simple sugarbids work on velvetcloth",
+      "link": "../assets/embroidery/Colorfull sugarbids simple work on velvetCloth.jpeg",
+      "price": 2500
+    },
+    {
+      "id": "3",
+      "name": "Ari design work blouse",
+      "link": "../assets/embroidery/Ari design work blouse with small sugarbids and thread work.jpeg",
+      "price": 4000
+    },
+    {
+      "id": "4",
+      "name": "Aari design with perals on Blouse",
+      "link": "../assets/embroidery/Aari designer with perals and small and large sugarbids.jpeg",
+      "price": 3000
+    },
+    {
+      "id": "5",
+      "name": "Threadwork with balls and sugarbids",
+      "link": "../assets/embroidery/threadwork with wite balls and sugarbids.jpeg",
+      "price": 6000
+    },
+    {
+      "id": "6",
+      "name": "embroidery Kundan work for wedding ",
+      "link": "../assets/embroidery/simple embroidery Kundan work.jpeg",
+      "price": 5000
+    },
+    {
+      "id": "7",
+      "name": " colorfull machine embroidery blouse",
+      "link": "../assets/embroidery/colorfull blouse design with machine embroidery.jpeg",
+      "price": 3000
+    },
+    {
+      "id": "8",
+      "name": "mirror design with small sugar bids",
+      "link": "../assets/embroidery/Colorfull mirror design with small sugar bids.jpeg",
+      "price": 15000
+    },
+    {
+      "id": "9",
+      "name": "thread and bids work with stone chain",
+      "link": "../assets/embroidery/Combination of thread and bids work with stone chain.jpeg",
+      "price": 200
+    },
+    {
+      "id": "10",
+      "name": "simple and elegent threadwork",
+      "link": "../assets/embroidery/simple and elegent threadwork.jpeg",
+      "price": 200
+    },
+    {
+      "id": "11",
+      "name": " elegent bridal Maggam Work design",
+      "link": "../assets/embroidery/elegent bridal design ari work.jpeg",
+      "price": 3000
+    },
+    {
+      "id": "12",
+      "name": "elegent peacock designs blouses",
+      "link": "../assets/embroidery/elegent peacock designs for U neck blouses.jpeg",
+      "price": 4000
+    },
+    {
+      "id": "13",
+      "name": "aari hand made work for wedding",
+      "link": "../assets/embroidery/elegent aari hand made work blouse.jpeg",
+      "price": 2000
+    },
+    {
+      "id": "14",
+      "name": "Bridal blouse design for wedding ",
+      "link": "../assets/embroidery/Indian Bridal blouse designing Available.jpeg",
+      "price": 3000
+    },
+    {
+      "id": "15",
+      "name": "bridal peacock designs for wedding ",
+      "link": "../assets/embroidery/Indian bridal peacock designs.jpeg",
+      "price": 2000
+    },
+    {
+      "id": "16",
+      "name": "machnine embroidery blouse",
+      "link": "../assets/embroidery/pure machnine embroidery with thread work floral.jpeg",
+      "price": 2500
+    },
+    {
+      "id": "17",
+      "name": "floral Blouse Designs for wedding",
+      "link": "../assets/embroidery/Latest floral Blouse Designs.jpeg",
+      "price": 3000
+    },
+    {
+      "id": "18",
+      "name": "peacock designs for wedding ",
+      "link": "../assets/embroidery/New peacock design with thread and sugar bids.jpeg",
+      "price": 2000
+    },
+    {
+      "id": "19",
+      "name": "Simple aari design for wedding",
+      "link": "../assets/embroidery/Simple aari design.jpeg",
+      "price": 2600
+    },
+    {
+      "id": "20",
+      "name": "trendy maggam design with deep neck",
+      "link": "../assets/embroidery/maggam works.jpeg",
+      "price": 2800
+    },
+    {
+      "id": "21",
+      "name": "machine embroidery blouse design",
+      "link": "../assets/embroidery/Multicolored thread work with machine embroidery.jpeg",
+      "price": 2000
+    },
+    {
+      "id": "22",
+      "name": "aari designer blouse for wedding",
+      "link": "../assets/embroidery/aari designer blouse for wedding with bids and knots.jpeg",
+      "price": 2000
+    },
+    {
+      "id": "23",
+      "name": "Pure Machine embroidery",
+      "link": "../assets/embroidery/Pure Machine embroidery thread work.jpeg",
+      "price": 2000
+    },
+    {
+      "id": "24",
+      "name": "peacock leaves design",
+      "link": "../assets/embroidery/simple peacock leaves design with sugar bids.jpeg",
+      "price": 1400
+    },
+    {
+      "id": "25",
+      "name": "daily weare thread work blouse",
+      "link": "../assets/embroidery/simple daily weare thread work blouse.jpeg",
+      "price": 1400
+    }
+  ],
+  "readymade": [
+    {
+      "id": "1",
+      "name": "Hot Black party wear blouse",
+      "link": "../assets/readymade/Hot Black party wear blouse.jpeg",
+      "price": 4000,
+      "description": "This exquisite Aari work blouse is perfect for weddings, featuring intricate hand-embroidery that showcases traditional craftsmanship. The detailed designs add a touch of elegance and sophistication, making it a standout choice for any bridal outfit."
+    },
+    {
+      "id": "2",
+      "name": "Baby pink deep square neck with embroidery",
+      "link": "../assets/readymade/baby pink deep square neck with embroidery.jpeg",
+      "price": 3500,
+      "description": "A charming baby pink blouse with a deep square neck, adorned with delicate embroidery. This blouse combines modern style with traditional elements, making it a versatile piece for festive occasions and celebrations."
+    },
+    {
+      "id": "3",
+      "name": "peacock blue blouse with thread work",
+      "link": "../assets/readymade/pecock blue with thread work.jpeg",
+      "price": 2500,
+      "description": "Elegant and eye-catching, this blue net blouse features full muggam work that exudes sophistication. Ideal for weddings and grand events, it promises to enhance your overall look with its intricate detailing."
+    },
+    {
+      "id": "4",
+      "name": "Back triangle neck flared hands work",
+      "link": "../assets/readymade/back triangle neck with flared hands full muggam.jpeg",
+      "price": 2500,
+      "description": "Featuring a unique back triangle neck and flared sleeves, this blouse is a fusion of traditional and contemporary design. The full muggam work adds a rich texture, making it a must-have for special occasions."
+    },
+    {
+      "id": "5",
+      "name": "Peach color V neck thread work blouse",
+      "link": "./assets/readymade/Banana Butti Scallop Lehenga Set with Peach Blouse.jpeg",
+      "price": 2500,
+      "description": "This elegant peach-colored blouse with full sleeves is perfect for adding a touch of grace to your attire. The subtle yet stylish design makes it a versatile piece for various traditional outfits."
+    },
+    {
+      "id": "6",
+      "name": "Yellow Blouse with attached Dupatta",
+      "link": "../assets/readymade/Blouse with attached Dupatta.jpeg",
+      "price": 2000,
+      "description": "Brighten up any occasion with this vibrant yellow blouse, complete with an attached dupatta. The unique design is both practical and stylish, ensuring you stand out at any event."
+    },
+    {
+      "id": "7",
+      "name": "Blue readymade muggam work blouse",
+      "link": "../assets/readymade/blue readymade muggam wedding blouse.jpeg",
+      "price": 4000,
+      "description": "This blue readymade blouse features exquisite muggam work, making it an ideal choice for weddings and grand celebrations. Its rich detailing and luxurious fabric make it a standout piece."
+    },
+    {
+      "id": "8",
+      "name": "Boat neck with net sleeves floral",
+      "link": "../assets/readymade/boat neck with net sleeves floral.jpeg",
+      "price": 2000,
+      "description": "A stylish blouse with a boat neck and delicate net sleeves, adorned with floral designs. This piece is perfect for adding a touch of elegance to your ensemble, suitable for both formal and festive occasions."
+    },
+    {
+      "id": "9",
+      "name": "White color blouse with boat neck",
+      "link": "../assets/readymade/boat neck with sleevless.jpeg",
+      "price": 1500,
+      "description": "Simple yet sophisticated, this white blouse with a boat neck design is a versatile addition to any wardrobe. Its clean lines and classic style make it suitable for a variety of outfits and occasions."
+    },
+    {
+      "id": "10",
+      "name": "floral thread work party wear sleveless blouse",
+      "link": "/assets/readymade/Hot party wear sleveless blouse.jpeg",
+      "price": 1500,
+      "description": "This peach-colored sleeveless blouse with a deep square neck is perfect for a contemporary look. Its sleek design makes it ideal for pairing with sarees and lehengas for modern, stylish outfits."
+    },
+    {
+      "id": "11",
+      "name": "Designer hand made Maggam work Blouse",
+      "link": "../assets/readymade/Designer hand work Maggam work Bridal Blouse - Green (1).jpeg",
+      "price": 2500,
+      "description": "A beautifully crafted green blouse featuring handmade Maggam work, perfect for brides and festive occasions. The detailed embroidery showcases skilled craftsmanship, adding a touch of luxury to your attire."
+    },
+    {
+      "id": "12",
+      "name": "Trendy waves designs on back neck ",
+      "link": "./assets/readymade/Creative Rinks on Instagram_ _Follow & Like for….jpeg",
+      "price": 1000,
+      "description": "A vibrant red blouse with frills and back thread detailing, offering a playful and stylish look. This unique design is perfect for adding a fun element to your traditional outfits."
+    },
+    {
+      "id": "13",
+      "name": "Gold Zardozi Aari/Maggam work blouse",
+      "link": "../assets/readymade/Gold Zardozi work blouse _ Aari work saree blouse _ Aari work blouse _ Magam work_ _ Maggam work blouse.jpeg",
+      "price": 4000,
+      "description": "This gold blouse features intricate Zardozi and Aari/Maggam work, making it a luxurious choice for weddings and grand events. The rich embellishments and fine detailing ensure a regal appearance."
+    },
+    {
+      "id": "14",
+      "name": "Latest Trendy 3D Maggam design blouse",
+      "link": "../assets/readymade/Latest Trendy Bridal 3d Maggam design blouse.jpeg",
+      "price": 4000,
+      "description": "Stay ahead of the fashion curve with this trendy 3D Maggam design blouse. Perfect for brides looking for a modern yet traditional look, this blouse combines intricate craftsmanship with contemporary style."
+    },
+    {
+      "id": "15",
+      "name": "Maggam Work Embroidery Bridal Blouse",
+      "link": "../assets/readymade/Maggam Work Blouse_ Aari Work Blouse_ Saree Blouse_ Designer Blouse_ Handmade Blouse_ Handmade Embroidery_ Wedding Blouse_ Bridal Blouse (1).jpeg",
+      "price": 4000,
+      "description": "A stunning bridal blouse featuring detailed Maggam work embroidery, perfect for the big day. The elaborate designs and rich texture make it a standout piece for any bridal ensemble."
+    },
+    {
+      "id": "16",
+      "name": "Pink color heavy Maggam work design blouse",
+      "link": "../assets/readymade/floral blouse with boat neck party weare.jpeg",
+      "price": 5000,
+      "description": "This pink blouse with heavy Maggam work design is perfect for special occasions. The detailed embroidery and vibrant color make it a luxurious addition to any festive wardrobe."
+    },
+    {
+      "id": "17",
+      "name": "Light green muggam work bridal blouse",
+      "link": "../assets/readymade/maggam work designs (3).jpeg",
+      "price": 3500,
+      "description": "A delicate light green blouse with intricate muggam work, designed especially for brides. Its elegant embroidery and soft color make it an ideal choice for wedding ceremonies and receptions."
+    },
+    {
+      "id": "19",
+      "name": "New blue deep neck blouse",
+      "link": "../assets/readymade/new blue deep neck blouse.jpeg",
+      "price": 2000,
+      "description": "A modern blue blouse with a deep neck design, perfect for a contemporary yet traditional look. Its sleek style and rich color make it a versatile piece for various occasions."
+    },
+    {
+      "id": "20",
+      "name": "Muggam and thread work embroidery blouse",
+      "link": "../assets/readymade/new wedding muggam and thread work embroidery blouse.jpeg",
+      "price": 5000,
+      "description": "A luxurious blouse featuring intricate muggam and thread work embroidery, ideal for weddings and grand celebrations. The detailed designs and rich texture add a touch of opulence to your attire."
+    },
+    {
+      "id": "21",
+      "name": "Organza butterfly sleeves",
+      "link": "../assets/readymade/Organza butterfly sleves (2).jpeg",
+      "price": 5000,
+      "description": "This blouse with organza butterfly sleeves is a perfect blend of elegance and modern style. The delicate sleeves and intricate work make it an eye-catching addition to any outfit."
+    },
+    {
+      "id": "22",
+      "name": "Puffed hands muggam embroidery white blouse",
+      "link": "../assets/readymade/puffed hands muggam embroidary white blouse.jpeg",
+      "price": 5000,
+      "description": "A sophisticated white blouse with puffed sleeves and muggam embroidery, perfect for festive occasions. The elegant design and rich detailing ensure a standout appearance."
+    },
+    {
+      "id": "23",
+      "name": "silk blouse with zardosi work and puff sleeves",
+      "link": "../assets/readymade/silk blouse with zardosi work and puff sleeves.jpeg",
+      "price": 5000,
+      "description": "This maroon red blouse with puffy sleeves is both stylish and elegant. Its vibrant color and unique design make it a perfect choice for special occasions and celebrations."
+    },
+    {
+      "id": "24",
+      "name": "Thread work deep neck white sleeveless blouse",
+      "link": "../assets/readymade/thread work deep neck white sleeveless blouse.jpeg",
+      "price": 5000,
+      "description": "A white sleeveless blouse featuring intricate thread work and a deep neck design. Its elegant style and detailed embroidery make it a versatile addition to any traditional outfit."
+    },
+    {
+      "id": "25",
+      "name": "skyblue net sleves worked blouse",
+      "link": "../assets/readymade/skyblue net sleves worked blouse.jpeg",
+      "price": 2000,
+      "description": "This blue blouse with muggam work is perfect for adding a touch of elegance to your attire. The rich embroidery and vibrant color make it a standout piece for any festive occasion."
+    },
+    {
+      "id": "26",
+      "name": "Orange pattu blouse with thread work",
+      "link": "./assets/readymade/Orange pattu blouse with thread work.jpeg",
+      "price": 5000,
+      "description": "A classic white blouse with full sleeves and intricate muggam work, ideal for weddings and formal events. Its elegant design and detailed craftsmanship ensure a timeless appeal."
+    }
+  ],
+  "sizes": [
+    {
+      "id": "1",
+      "size": 28,
+      "price": 10
+    },
+    {
+      "id": "2",
+      "size": 30,
+      "price": 20
+    },
+    {
+      "id": "3",
+      "size": 32,
+      "price": 30
+    },
+    {
+      "id": "4",
+      "size": 34,
+      "price": 40
+    },
+    {
+      "id": "5",
+      "size": 38,
+      "price": 40
+    },
+    {
+      "id": "6",
+      "size": 40,
+      "price": 40
+    }
+  ],
+  "users": [
+    {
+      "id": "5aad",
+      "username": "user1",
+      "password": "password1",
+      "email": "user1@gmail.com",
+      "address": {
+        "address1": "3432",
+        "address2": "lalitha",
+        "city": "Hyderabad, Telangana, India",
+        "state": "Hyderabad",
+        "zip": "500038"
+      },
+      "favorites": [
+        {
+          "id": "21",
+          "name": "Organza butterfly sleeves",
+          "link": "../assets/readymade/Organza butterfly sleves (2).jpeg",
+          "price": 5000,
+          "description": "This blouse with organza butterfly sleeves is a perfect blend of elegance and modern style. The delicate sleeves and intricate work make it an eye-catching addition to any outfit."
+        },
+        {
+          "id": "10",
+          "name": "floral thread work party wear sleveless blouse",
+          "link": "/assets/readymade/Hot party wear sleveless blouse.jpeg",
+          "price": 1500,
+          "description": "This peach-colored sleeveless blouse with a deep square neck is perfect for a contemporary look. Its sleek design makes it ideal for pairing with sarees and lehengas for modern, stylish outfits."
+        },
+        {
+          "id": "8",
+          "name": "Boat neck with net sleeves floral",
+          "link": "../assets/readymade/boat neck with net sleeves floral.jpeg",
+          "price": 2000,
+          "description": "A stylish blouse with a boat neck and delicate net sleeves, adorned with floral designs. This piece is perfect for adding a touch of elegance to your ensemble, suitable for both formal and festive occasions."
+        }
+      ],
+      "cart": [
+        {
+          "id": "14",
+          "name": "Latest Trendy 3D Maggam design blouse",
+          "link": "../assets/readymade/Latest Trendy Bridal 3d Maggam design blouse.jpeg",
+          "price": 4000,
+          "description": "Stay ahead of the fashion curve with this trendy 3D Maggam design blouse. Perfect for brides looking for a modern yet traditional look, this blouse combines intricate craftsmanship with contemporary style.",
+          "size": 40,
+          "quantity": 1
+        }
+      ],
+      "CustomDesigns": [
+        {
+          "id": 100,
+          "fabric": {
+            "id": 13,
+            "name": "Velvet",
+            "link": "../assets/fabrics/Velvet.jpeg",
+            "price": 500
+          },
+          "color": {
+            "id": 8,
+            "name": "Navy Blue",
+            "link": "../assets/colorOptions/NavyBlue.png",
+            "price": 0
+          },
+          "design": {
+            "id": 5,
+            "name": "Classic Chinese",
+            "link": "../assets/models/Classic Chinese.png",
+            "price": 650
+          },
+          "embroidery": {
+            "id": 23,
+            "name": "Pure Machine embroidery",
+            "link": "../assets/embroidery/Pure Machine embroidery thread work.jpeg",
+            "price": 2000
+          },
+          "size": 40,
+          "price": 3150
+        }
+      ]
+    }
+  ]
+}
