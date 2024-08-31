@@ -525,8 +525,12 @@ flex-direction: column;
 align-items: center;
 
 }
+.form-floating{
+  width: 100%;
+}
 .formContainer input{
-  width: 300px !important;
+  max-width: 400px !important;
+  width: 100% !important;
  
 }
 .AddressInput{
@@ -915,7 +919,7 @@ align-items: center;
 .toast {
   transform: translateX(100%);
   transition: transform 1s ease-in-out;
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
 }
 
 /* Show state - visible */
@@ -1065,6 +1069,9 @@ align-items: center;
 
   /* Responsive styles */
    @media (max-width: 768px) {
+    *{
+      font-size: 14px;
+    }
     .logo{
       margin-left: 10px;
     }
@@ -1080,6 +1087,7 @@ align-items: center;
       margin: 10px;
       padding: 10px 10px;
     }
+    
     .productdetails-div{
       flex-direction: column;
       align-items: center;
@@ -1094,12 +1102,19 @@ align-items: center;
     align-items: center;
     width: 100%;
    }
+   .AddtoCartSpan{
+    display: none;
+  }
+  .AddToCartBtn{
+    padding: 5px 15px;
+  }
    .BuynowAddtoCartbtns{
     display: flex;
     flex-direction: row;
    }
    .BuynowAddtoCartbtns button{
     margin: 10px;
+    width: 120px !important;
    }
    .searchInput{
     height: 50px;
@@ -1163,6 +1178,9 @@ align-items: center;
    }
    .NextBtnDiv button{
     width: 120px;
+   }
+   .sizestable{
+    width: 90%;
    }
     .designs h2{
     margin-bottom: 0px;
@@ -1261,6 +1279,7 @@ align-items: center;
 .formContainer input{
  padding-top: 15px;
  padding-left: 10px;
+
 }
 
 .AddressInput{

@@ -18,7 +18,7 @@ const Favourites = () => {
           if(userId)
           {
             try{
-              const response=await axios.get(`https://customweavesapi.onrender.com/users/${userId}`)
+              const response=await axios.get(`https://checkered-spiky-catmint.glitch.me/users/${userId}`)
               // setData(response.data.Customproducts)
              const user=response.data
              setData(user.favorites);   

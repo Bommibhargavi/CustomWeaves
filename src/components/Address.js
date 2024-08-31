@@ -11,7 +11,7 @@ const Address = () => {
     const [zip, setZip] = useState('');
     const[Validate, setValidate]=useState(false);
     const userId=useSelector((state)=>state.auth.user?.id)
-    const API_URL=`https://customweavesapi.onrender.com/users/${userId}`;
+    const API_URL=`https://checkered-spiky-catmint.glitch.me/users/${userId}`;
     const [user, setUser] = useState(null);
     const navigate=useNavigate();
     const location=useLocation();

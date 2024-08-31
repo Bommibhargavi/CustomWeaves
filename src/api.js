@@ -11,7 +11,7 @@ useEffect(()=>{
   
     const fetchData= async()=>{
         try{
-            const response=await axios.get(`https://customweavesapi.onrender.com${endpoint}`,
+            const response=await axios.get(`https://checkered-spiky-catmint.glitch.me${endpoint}`,
               
             )
             setData(response.data)

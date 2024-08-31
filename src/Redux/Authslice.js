@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import CustomDesigns from '../components/CustomDesigns';
 
-const API_URL = 'https://customweavesapi.onrender.com/users';
+const API_URL = 'https://checkered-spiky-catmint.glitch.me/users';
 
 // Thunks for async actions
 export const registerUser = createAsyncThunk('auth/registerUser', async (userData, { rejectWithValue }) => {

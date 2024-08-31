@@ -13,6 +13,7 @@ const AddtoCart = ({product,quantity, size}) => {
     const navigate=useNavigate();
     const [ShowToast, setShowToast]=useState(false)
     const [isClicked, setIsClicked]=useState(false);
+   
     const handleAddItem =(e)=>{
       e.stopPropagation()
       e.preventDefault()
@@ -34,7 +35,7 @@ const AddtoCart = ({product,quantity, size}) => {
     }
   return (
     <>
-    <button className='AddToCartBtn' onClick={handleAddItem}>Add To <i class='bx bxs-shopping-bag'></i></button>
+    <button className='AddToCartBtn' onClick={handleAddItem}><span className="AddtoCartSpan">Add To</span><i class='bx bxs-shopping-bag'></i></button>
     <Popup
      message={size?"Product Added to Cart":"Please Select Size"}
      show={ShowToast}

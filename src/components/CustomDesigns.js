@@ -14,7 +14,7 @@ function CustomDesigns() {
     const fetchData = async () => {
       if (userId) {
         try {
-          const response = await axios.get(`https://customweavesapi.onrender.com/users/${userId}`);
+          const response = await axios.get(`https://checkered-spiky-catmint.glitch.me/users/${userId}`);
           const user = response.data;
           setData(user.CustomDesigns);
         } catch (error) {
