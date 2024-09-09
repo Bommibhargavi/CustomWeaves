@@ -38,7 +38,7 @@ function CustomDetails() {
       if (userId && size && cost) {
         setId(id + 1);
         dispatch(addcustomDesign({ userId, customDesign }));
-        dispatch(resetSize())
+        // dispatch(resetSize())
         setIsClicked(true)
       }  
         setShowToast(true)
@@ -104,12 +104,12 @@ function CustomDetails() {
 
         <button id="Designsbtns" onClick={handleClick}>Add to <img className="Custobtnimage" src={btnicon}/></button>
       </div>
-      <Popup
+      {/* <Popup
       message={isClicked?"Product added to designes":"please Select Size"}
       show={ShowToast}
       isClicked={isClicked}
       setShow={setShowToast}
-      />
+      /> */}
       
       <Popup
       message={!cost&&"please get your design price"}
@@ -118,7 +118,7 @@ function CustomDetails() {
       setShow={setShowToast}
       />
       <Popup
-      message={!fitSize&&"please select size"}
+       message={isClicked && size && cost ? "product added to design": size && !cost ?"please get product price":"please select both size and price"}
       show={ShowToast}
       isClicked={isClicked}
       setShow={setShowToast}

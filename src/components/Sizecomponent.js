@@ -15,15 +15,13 @@ const Sizecomponent = ({ SizeCall, sendSize }) => {
         }
     }, [SizeCall, size, dispatch]);
 
-    const handleClick = (S, index) => {
-        setSize(S);
-        setSelectedCellIndex(index);
-        sendSize(S)
-        // if(SizeCall===undefined)
-        // {
-        //     sendSize(S)
+   
+    const handleClick = (item,index) => {
+        console.log(item,index,"size updated")
+        setSize(item.size);
 
-        // }
+        setSelectedCellIndex(index);
+        sendSize(item.size)
         
     };
     
@@ -43,7 +41,7 @@ const Sizecomponent = ({ SizeCall, sendSize }) => {
                                     backgroundColor: selectedCellIndex === index ? "#11998E" : 'transparent',
                                     color: selectedCellIndex === index ? "white" : 'black'
                                 }}
-                                onClick={() => handleClick(item.size, index)}>
+                                onClick={() => handleClick(item, index)}>
                                 {item.size}
                             </td>
                         ))}

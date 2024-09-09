@@ -16,7 +16,7 @@ const BuyNow = ({product,quantity,size,priceSet}) => {
     const [userAddress, setUserAddress]=useState(null)
     const [error, setError]=useState(null);
     const [loading, setLoading]=useState(null)
-    console.log(userAddress)
+    // console.log(userAddress)
     
     useEffect(()=>{
       const fetchData= async()=>{
